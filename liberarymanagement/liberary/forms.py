@@ -27,7 +27,7 @@ class BookForm(forms.ModelForm):
         fields = ['name', 'isbn', 'author', 'category']
 
 class IssuedBook(forms.ModelForm):
-    isbn2 = forms.ModelChoiceField(queryset=models.Book.object.all(), empty_label="name and isbn", to_field_name="isbn", label="Name and Isbn")
-    enrollment2 = forms.ModelChoiceField(queryset=models.StudentExtra.object.all(), empty_label="name and enrollment", to_field_name="enrollment", label="Name and Enrollment")
+    isbn2 = forms.ModelChoiceField(queryset=models.Book.objects.all(), empty_label="name and isbn", to_field_name="isbn", label="Name and Isbn")
+    enrollment2 = forms.ModelChoiceField(queryset=models.StudentExtra.objects.all(), empty_label="name and enrollment", to_field_name="enrollment", label="Name and Enrollment")
 
 
