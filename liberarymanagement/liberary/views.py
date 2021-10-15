@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import forms,models
-from django.http import HttpResponseRedirect
 from django.contrib.auth.models import Group
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required,user_passes_test
