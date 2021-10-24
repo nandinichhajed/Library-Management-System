@@ -28,7 +28,7 @@ git clone https://github.com/nandinichhajed/Library-Management-System.git
 **Get project forlder**
 
 ```bash
-cd Calorie-Calculator-in-Python-Django
+cd Library-Management-System
 ```
 
 **Create virtual Environment**
